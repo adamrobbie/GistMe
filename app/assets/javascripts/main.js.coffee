@@ -1,7 +1,7 @@
 $(document).ready ->
-  gistRand = Math.floor(Math.random() * 2900000)
-  gistURL = "http://gist.github.com/api/v1/json/"+gistRand
+  gistRand = Math.floor(Math.random() * 290000)
+  gistURL = "https://api.github.com/gists/"+gistRand
   $(".code").append gistURL
-  $.getJSON gistURL+gistRand, (JSON) ->
-  	alert "JSON Data: " + json
+  $.getJSON gistURL+gistRand, (data) ->
+  	alert "JSON Data: "
 
