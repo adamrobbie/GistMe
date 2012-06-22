@@ -1,3 +1,7 @@
-# Place all the behaviors and hooks related to the matching controller here.
-# All this logic will automatically be available in application.js.
-# You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
+$(document).ready ->
+  gistRand = Math.floor(Math.random() * 2900000)
+  gistURL = "http://gist.github.com/api/v1/json/"+gistRand
+  $(".code").append gistURL
+  $.getJSON gistURL+gistRand, (JSON) ->
+  	alert "JSON Data: " + json
+
