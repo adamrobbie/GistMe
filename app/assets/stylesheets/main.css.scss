@@ -55,15 +55,15 @@ audio:not([controls]) {
 
 
 /* =============================================================================
-   Base
-   ========================================================================== */
+   // Base
+   // ========================================================================== */
 
-/*
- * 1. Corrects text resizing oddly in IE6/7 when body font-size is set using em units
- *    http://clagnut.com/blog/348/#c790
- * 2. Prevents iOS text size adjust after orientation change, without disabling user zoom
- *    www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/
- */
+// /*
+//  * 1. Corrects text resizing oddly in IE6/7 when body font-size is set using em units
+//  *    http://clagnut.com/blog/348/#c790
+//  * 2. Prevents iOS text size adjust after orientation change, without disabling user zoom
+//  *    www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/
+//  */
 
 html {
     font-size: 100%; /* 1 */
@@ -71,9 +71,9 @@ html {
     -ms-text-size-adjust: 100%; /* 2 */
 }
 
-/*
- * Addresses font-family inconsistency between 'textarea' and other form elements.
- */
+//
+// Addresses font-family inconsistency between 'textarea' and other form elements.
+//
 
 html,
 button,
@@ -83,31 +83,31 @@ textarea {
     font-family: sans-serif;
 }
 
-/*
- * Addresses margins handled incorrectly in IE6/7
- */
+//
+//  Addresses margins handled incorrectly in IE6/7
+//
 
 body {
     margin: 0;
 }
 
 
-/* =============================================================================
-   Links
-   ========================================================================== */
+//=============================================================================
+//    Links
+//========================================================================== */
 
-/*
- * Addresses outline displayed oddly in Chrome
- */
+//
+// Addresses outline displayed oddly in Chrome
+//
 
 a:focus {
     outline: thin dotted;
 }
 
-/*
- * Improves readability when focused and also mouse hovered in all browsers
- * people.opera.com/patrickl/experiments/keyboard/test
- */
+//
+// Improves readability when focused and also mouse hovered in all browsers
+// people.opera.com/patrickl/experiments/keyboard/test
+//
 
 a:hover,
 a:active {
@@ -115,14 +115,13 @@ a:active {
 }
 
 
-/* =============================================================================
-   Typography
-   ========================================================================== */
-
-/*
- * Addresses font sizes and margins set differently in IE6/7
- * Addresses font sizes within 'section' and 'article' in FF4+, Chrome, S5
- */
+// =============================================================================
+// Typography
+// ========================================================================== */
+//
+ // Addresses font sizes and margins set differently in IE6/7
+ // Addresses font sizes within 'section' and 'article' in FF4+, Chrome, S5
+ //
 
 h1 {
     font-size: 2em;
@@ -154,17 +153,17 @@ h6 {
     margin: 2.33em 0;
 }
 
-/*
- * Addresses styling not present in IE7/8/9, S5, Chrome
- */
+//
+// Addresses styling not present in IE7/8/9, S5, Chrome
+//
 
 abbr[title] {
     border-bottom: 1px dotted;
 }
 
-/*
- * Addresses style set to 'bolder' in FF3+, S4/5, Chrome
-*/
+//
+// Addresses style set to 'bolder' in FF3+, S4/5, Chrome
+//
 
 b,
 strong {
@@ -175,36 +174,36 @@ blockquote {
     margin: 1em 40px;
 }
 
-/*
- * Addresses styling not present in S5, Chrome
- */
+//
+// Addresses styling not present in S5, Chrome
+//
 
 dfn {
     font-style: italic;
 }
 
-/*
- * Addresses styling not present in IE6/7/8/9
- */
+//
+// Addresses styling not present in IE6/7/8/9
+//
 
 mark {
     background: #ff0;
     color: #000;
 }
 
-/*
- * Addresses margins set differently in IE6/7
- */
+//
+// Addresses margins set differently in IE6/7
+//
 
 p,
 pre {
     margin: 1em 0;
 }
 
-/*
- * Corrects font family set oddly in IE6, S4/5, Chrome
- * en.wikipedia.org/wiki/User:Davidgothberg/Test59
- */
+//
+// Corrects font family set oddly in IE6, S4/5, Chrome
+// en.wikipedia.org/wiki/User:Davidgothberg/Test59
+//
 
 pre,
 code,
@@ -215,9 +214,9 @@ samp {
     font-size: 1em;
 }
 
-/*
- * Improves readability of pre-formatted text in all browsers
- */
+//
+//  Improves readability of pre-formatted text in all browsers
+//
 
 pre {
     white-space: pre;
@@ -334,26 +333,26 @@ svg:not(:root) {
 }
 
 
-/* =============================================================================
-   Figures
-   ========================================================================== */
+// =============================================================================
+//  Figures
+//  ========================================================================== */
 
-/*
- * Addresses margin not present in IE6/7/8/9, S5, O11
- */
+//
+// Addresses margin not present in IE6/7/8/9, S5, O11
+
 
 figure {
     margin: 0;
 }
 
 
-/* =============================================================================
-   Forms
-   ========================================================================== */
+//  =============================================================================
+//  Forms
+//  ========================================================================== */
 
-/*
- * Corrects margin displayed oddly in IE6/7
- */
+//
+//  Corrects margin displayed oddly in IE6/7
+//
 
 form {
     margin: 0;
